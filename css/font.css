@@ -1,0 +1,71 @@
+
+	.header {
+		padding: 16px 50px; 
+	}
+	
+	.header .nav-trigger {
+		display: none;
+	}
+	
+	.header nav {
+		display: flex !important;
+		flex-direction: row;
+		order: 1;
+		padding: 0;
+		width: auto;
+		box-shadow: none;
+	}
+	
+	.header nav button {
+		margin-left: 16px;
+	}
+	
+	.grid-md-2 {
+		grid-template: auto / 1fr 1fr;
+	}
+	
+	.section-title {
+		font-size: 44px;
+		margin-bottom: 22px;
+	}
+	
+	.hero {
+		padding: 10% 0;
+	}
+	
+	.hero .image {
+		max-width: 100%;
+	}
+	
+	.hero h1 {
+		font-size: 80px;
+		font-weight: 500;
+	}
+	
+	.hero p {
+		font-size: 24px;
+	}
+	
+	.hero .grid {
+		grid-template: auto / 40% 1fr;
+	}
+	
+	.about {
+		padding: 20px 0 160px;
+	}
+	
+	.about .grid {
+		grid-template: auto / 60% 1fr;
+	}
+	
+	.about p {
+		font-size: 20px;
+		max-width: 90%;
+	}
+	
+	.about .tag {
+		font-weight: 500;
+		font-size: 16px;
+	}
+
+	

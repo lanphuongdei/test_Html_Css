@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+html,
+body {
+	line-height: 1.4;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	color: #1a1b1f;
+	background: #eeeff1; 
+}
+
+button {
+	cursor: pointer;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 100%;
+	max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+	display: block;
+	padding: 0 16px;
+	width: 100%;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.btn {
+	padding: 12px 24px;
+	background: #1a1b1f;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	border: 0;
+	border-radius: 8px;
+	font-weight: 500;
+}
+
+.grid {
+	display: grid;
+}
+
+.gap-40 {
+	grid-gap: 40px;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.section-title {
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 14px;
+}
+
+.tag {
+	border: 1px solid #ddd;
+	display: inline-block;
+	border-radius: 6px;
+	padding: 12px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header {
+	height: 88px;
+	padding: 16px;
+	display: flex;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #00000000;
+	flex-wrap: wrap;
+}
+
+.header a {
+	color: #1a1b1f;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.header a span {
+	font-size: 16px;
+}
+
+.header .logo {
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	margin-right: auto;
+}
+
+.header .logo img {
+	margin-right: 16px;
+	max-width: 35px;
+}
+
+.header nav {
+	display: none;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	padding: 40px 14px;
+	order: 2;
+}
+
+.header nav.show {
+	display: flex;
+}
+
+.header nav a {
+	font-weight: 500;
+	display: block;
+	padding: 8px 16px;
+	font-size: 16px;
+}
+
+.header nav .btn {
+	font-size: 16px;
+}
+
+.header .nav-trigger {
+	background: transparent;
+	width: 24px;
+	border: 0;
+}
+
+.hero {
+	padding: 60px 0;
+}
+
+.hero h1 {
+	margin-bottom: 12px;
+	font-size: 44px;
+	font-weight: 300;
+}
+
+.hero p {
+	font-size: 20px;
+}
+
+.hero .image {
+	max-width: 50%;
+}
+
+.hero .ava {
+	padding-top: 100%;
+	background-size: cover;
+	border-radius: 24px;
+}
+
+.about {
+	padding: 20px 0 60px;
+}
+
+.about p {
+	font-size: 16px;
+}
+
+.about .tag {
+	margin: 0 8px 12px 0;
+}
+
